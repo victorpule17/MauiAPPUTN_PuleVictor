@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAPPUTN.Clasificaciones"
+             Title="Clasificaciones">
+    <VerticalStackLayout 
+        Padding="30,0"
+        Spacing="10">
+        
+        <Label >id: Clasificación</Label>
+        <Entry x:Name="txtIdClasificacion" Text=""></Entry>
+        <Label >Nombre de la clasificación</Label>
+        <Entry x:Name="txtClasificacion" Text=""></Entry>
+        <Button x:Name="cmdCrear" Text="Crear" Clicked="cmdCrear_Clicked"></Button>
+        <Button x:Name="cmdLeer" Text="Leer" Clicked="cmdLeer_Clicked"></Button>
+        <Button x:Name="cmdActualizar" Text="Actualizar" Clicked="cmdActualizar_Clicked"></Button>
+        <Button x:Name="cmdEliminar" Text="Eliminar" Clicked="cmdEliminar_Clicked"></Button>
+        <Button x:Name="cmdNext" Text="Pagina de productos" Clicked="cmdNext_Clicked"></Button>
+        <Button x:Name="cmdMenu" Text="Ir al Menú Principal" Clicked="cmdMenu_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>

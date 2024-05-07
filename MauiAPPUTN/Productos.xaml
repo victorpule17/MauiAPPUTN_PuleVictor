@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAPPUTN.Productos"
+             Title="Productos">
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="10">
+            <Label>Id: Producto</Label>
+            <Entry x:Name="txtIdProducto"></Entry>
+            <Label>Nombre Producto</Label>
+            <Entry x:Name="txtNombreProducto"></Entry>
+            <Label>Existencia</Label>
+            <Entry x:Name="txtExistencia"></Entry>
+            <Label>Precio Unitario</Label>
+            <Entry x:Name="txtPrecioUnitario"></Entry>
+            <Label>IVA</Label>
+            <Entry x:Name="txtIVA"></Entry>
+            <Label>ID Clasificacion</Label>
+            <Entry x:Name="txtClasificacionID"></Entry>
+
+            <Button x:Name="cmdCreateProd" Text="Insertar" Clicked="cmdCreateProd_Clicked"></Button>
+            <Button x:Name="cmdLeerProd" Text="Leer" Clicked="cmdLeerProd_Clicked"></Button>
+            <Button x:Name="cmdUpdateProd" Text="Actualizar" Clicked="cmdUpdateProd_Clicked"></Button>
+            <Button x:Name="cmdDeleteProd" Text="Eliminar" Clicked="cmdDeleteProd_Clicked"></Button>
+
+            <Button x:Name="cmdRegresar" Text="Pagina de Clasificaciones" Clicked="cmdRegresar_Clicked"></Button>
+            <Button x:Name="cmdMenu" Text="Ir al Menú Principal" Clicked="cmdMenu_Clicked"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
