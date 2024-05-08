@@ -92,7 +92,7 @@ public partial class Productos : ContentPage
 
     private void cmdDeleteProd_Clicked(object sender, EventArgs e)
     {
-        if (string.IsNullOrWhiteSpace(txtClasificacionID.Text))
+        if (string.IsNullOrWhiteSpace(txtIdProducto.Text))
         {
             DisplayAlert("Error", "Ingrese el ID del producto que desea eliminar.", "OK");
             return;
