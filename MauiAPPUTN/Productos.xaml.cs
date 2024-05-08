@@ -111,6 +111,7 @@ public partial class Productos : ContentPage
             txtPrecioUnitario.Text = "";
             txtIVA.Text = "";
             txtClasificacionID.Text = "";
+
         }
     }
 
